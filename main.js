@@ -34,7 +34,7 @@ function mymousemove(e) {
         ctx.strokeStyle = color;
         ctx.lineWidth = width;
         ctx.moveTo(last_x , last_y);
-       ctx.arc(current_position_of_mouse_x , current_position_of_mouse_y, radius, 0 , 2 * Math.PI);
+       ctx.arc(current_x , current_y,20, 0 , 2 * Math.PI);
         ctx.stroke();
 
     }
